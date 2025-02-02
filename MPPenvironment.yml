@@ -1,0 +1,49 @@
+name: MPPenv
+channels:
+  - defaults
+dependencies:
+  - bzip2=1.0.8=h2bbff1b_6
+  - ca-certificates=2024.12.31=haa95532_0
+  - expat=2.6.4=h8ddb27b_0
+  - libffi=3.4.4=hd77b12b_1
+  - libmpdec=4.0.0=h827c3e9_0
+  - openssl=3.0.15=h827c3e9_0
+  - pip=24.2=py313haa95532_0
+  - python=3.13.1=hadb2040_100_cp313
+  - python_abi=3.13=0_cp313
+  - setuptools=75.8.0=py313haa95532_0
+  - sqlite=3.45.3=h2bbff1b_0
+  - tk=8.6.14=h0416ee5_0
+  - vc=14.40=haa95532_2
+  - vs2015_runtime=14.42.34433=h9531ae6_2
+  - wheel=0.44.0=py313haa95532_0
+  - xz=5.4.6=h8cc25b3_1
+  - zlib=1.2.13=h8cc25b3_1
+  - pip:
+    - certifi==2025.1.31
+    - charset-normalizer==3.4.1
+    - click==8.1.8
+    - colorama==0.4.6
+    - contourpy==1.3.1
+    - cycler==0.12.1
+    - deprecation==2.1.0
+    - fonttools==4.55.8
+    - hightime==0.2.2
+    - idna==3.10
+    - kiwisolver==1.4.8
+    - matplotlib==3.10.0
+    - nidaqmx==1.0.2
+    - numpy==2.2.2
+    - packaging==24.2
+    - pillow==11.1.0
+    - pyparsing==3.2.1
+    - python-dateutil==2.9.0.post0
+    - python-decouple==3.8
+    - pyvisa==1.14.1
+    - requests==2.32.3
+    - six==1.17.0
+    - typing-extensions==4.12.2
+    - tzdata==2025.1
+    - tzlocal==5.2
+    - urllib3==2.3.0
+prefix: C:\Users\Elena\.conda\envs\MPPenv
