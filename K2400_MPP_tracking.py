@@ -409,7 +409,7 @@ class MaximumPowerPointTracker:
       parser.add_argument("address", nargs='?', default=None, type=str, help="GPIB address for Keithley 2400, should be GPIB0::20::INSTR")
       parser.add_argument("total_tracking_time", nargs='?', default=None,  type=int, help="Total number of seconds to run for")
       parser.add_argument("device_area", nargs='?', default=None,  type=float, help="Device active area in cm^2")
-      parser.add_argument("--shutterOut", nargs='?', type=str, default='Testboard/port1/line0', help='Digital I/O address for USB6501 object to address the solar simulator shutter. Should be Testboard/port1/line0')
+      parser.add_argument("--shutterOut", type=str, default='Testboard/port1/line0', help='Digital I/O address for USB6501 object to address the solar simulator shutter. Should be Testboard/port1/line0')
       return parser.parse_args()
       
 
