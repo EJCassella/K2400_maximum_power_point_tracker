@@ -37,22 +37,20 @@ python K2400_MPP_tracking.py GPIB0::20::INSTR 120 0.2
 
 ```
 $ ./python K2400_MPP_tracking.py -h
-usage: K2400_MPP_tracking.py [-h] [--shutterOut] [address] [total_tracking_time] [device_area]
+usage: K2400_MPP_tracking.py [-h] [--shutterOut SHUTTEROUT] [address] [total_tracking_time] [device_area]
 
 Maximum power point tracker with shutter control for devices and minimodules using Keithley 2400
 
 positional arguments:
-address GPIB address for Keithley 2400, should be GPIB0::20::INSTR
-total_tracking_time Total number of seconds to run for
-device_area Device active area in cm^2
+  address               GPIB address for Keithley 2400, should be GPIB0::20::INSTR
+  total_tracking_time   Total number of seconds to run for
+  device_area           Device active area in cm^2
 
 options:
--h, --help show this help message and exit
---shutterOut
-Digital I/O address for USB6501 object to address the solar simulator shutter. Should be
-Testboard/port1/line0
-
-(MPPenv) C:\Users\Elena\Documents\GitHub\K2400_maximum_power_point_tracker>`
+  -h, --help            show this help message and exit
+  --shutterOut SHUTTEROUT
+                        Digital I/O address for USB6501 object to address the solar simulator shutter. Should be
+                        Testboard/port1/line0
 ```
 
 ## Data output:
