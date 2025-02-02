@@ -35,7 +35,7 @@ conda env create -f MPPenvironment.yml
 python K2400_MPP_tracking.py GPIB0::20::INSTR 120 0.2
 ```
 
-```bash
+```
 $ ./python K2400_MPP_tracking.py -h
 usage: K2400_MPP_tracking.py [-h] [--shutterOut] [address] [total_tracking_time] [device_area]
 
